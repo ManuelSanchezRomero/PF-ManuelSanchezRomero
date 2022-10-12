@@ -83,7 +83,7 @@
     .index__fondo {
         width: 100%;
         height: 100vh;
-        background-image: url(/FINAL/Imagenes/Fondo.jpg);
+        background-image: url(../Imagenes/Fondo.jpg);
         background-size: cover;
         background-position: center;
     }
