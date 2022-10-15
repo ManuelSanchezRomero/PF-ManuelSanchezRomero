@@ -211,6 +211,40 @@ header {
     margin-bottom: 10px;
 }
 
+
+/*--------contacto-------------*/
+
+.contacto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "box-redes box-redes" "box-mapa box-datos";
+}
+
+.box-redes {
+    grid-area: "box-redes";
+    display: flex;
+    justify-content: space-around;
+    background-color: chartreuse;
+}
+
+.box-redes img {
+    width: 150px;
+}
+
+.box-mapa {
+    grid-area: "box-mapa";
+    background-color: #960000;
+}
+
+.box-datos {
+    grid-area: "box-datos";
+    background-color: blue;
+}
+
+
+/*MediaQuery*/
+
 @media (max-width: 768px) {
     .BANNER {
         display: grid;
