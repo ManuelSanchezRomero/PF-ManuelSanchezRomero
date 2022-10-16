@@ -218,28 +218,46 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "box-redes box-redes" "box-mapa box-datos";
+    grid-template-areas: "box-redes box-redes"" box-mapa box-datos";
 }
 
 .box-redes {
-    grid-area: "box-redes";
+    grid-area: box-redes;
     display: flex;
     justify-content: space-around;
-    background-color: chartreuse;
+    align-items: flex-start;
 }
 
 .box-redes img {
     width: 150px;
+    position: absolute;
+    margin-top: 100px;
+    transition: 0.2s;
+}
+
+.box-redes img:hover {
+    width: 250px;
+    flex-direction: row;
 }
 
 .box-mapa {
-    grid-area: "box-mapa";
-    background-color: #960000;
+    grid-area: box-mapa;
+    display: flex;
+    justify-self: center;
 }
 
 .box-datos {
-    grid-area: "box-datos";
-    background-color: blue;
+    display: flex;
+    grid-area: box-datos;
+    justify-content: center;
+    align-self: center;
+}
+
+.box-datos p {
+    font-size: 50px;
+    font-style: italic;
+    font-family: cursive;
+    line-height: 100px;
 }
 
 
@@ -253,7 +271,32 @@ header {
     .Logo {
         margin-top: 10px;
     }
+    /*Nosotros*/
     .main-nosotros img {
         width: 40%;
+    }
+    /*Contacto*/
+    .contacto {
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 3;
+        grid-template-areas: "box-redes" "box-mapa" "box-datos";
+    }
+    .box-redes {
+        grid-area: box-redes;
+        display: flex;
+    }
+    .box-redes img {
+        position: relative;
+    }
+    .box-mapa {
+        grid-area: box-mapa;
+        display: flex;
+    }
+    .box-datos {
+        grid-area: box-datos;
+        display: flex;
+        margin-top: 20px;
+        text-align: center;
     }
 }
