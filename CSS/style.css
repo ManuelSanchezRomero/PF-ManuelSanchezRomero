@@ -212,6 +212,114 @@ header {
 }
 
 
+/*--------- servicios -----------*/
+
+.body-paralax {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: arial;
+    background-color: rgb(231, 217, 19);
+    background-image: radial-gradient(circle, #fffe00, #ebdc00, #d4bb00, #bb9c02, #a17e06);
+}
+
+.image1 {
+    position: relative;
+    background: url('../imagenes/Slider/slider1.jpg') no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.image2 {
+    position: relative;
+    background: url('../imagenes/Slider/slider2.jpg') no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.image3 {
+    position: relative;
+    background: url('../imagenes/Slider/slider4.jpg') no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.image4 {
+    position: relative;
+    background: url('../imagenes/Slider/slider3.jpg') no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.body-paralax h1 {
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 800px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -20%;
+    margin-left: -400px;
+    opacity: 0.8;
+}
+
+.body-paralax h2 {
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px;
+    opacity: 0.8;
+}
+
+.content {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    background: none;
+    z-index: 2;
+}
+
+.body-paralax p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 40px;
+    margin: 30px 0;
+}
+
+.body-paralax a {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+
 /*--------contacto-------------*/
 
 .contacto {
