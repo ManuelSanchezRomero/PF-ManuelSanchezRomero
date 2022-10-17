@@ -225,7 +225,7 @@ header {
 
 .image1 {
     position: relative;
-    background: url('../imagenes/Slider/slider1.jpg') no-repeat fixed;
+    background: url('../Imagenes/Slider/slider1.jpg') no-repeat fixed;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -236,7 +236,7 @@ header {
 
 .image2 {
     position: relative;
-    background: url('../imagenes/Slider/slider2.jpg') no-repeat fixed;
+    background: url('../Imagenes/Slider/slider2.jpg') no-repeat fixed;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -247,7 +247,7 @@ header {
 
 .image3 {
     position: relative;
-    background: url('../imagenes/Slider/slider4.jpg') no-repeat fixed;
+    background: url('../Imagenes/Slider/slider4.jpg') no-repeat fixed;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -258,7 +258,7 @@ header {
 
 .image4 {
     position: relative;
-    background: url('../imagenes/Slider/slider3.jpg') no-repeat fixed;
+    background: url('../Imagenes/Slider/slider3.jpg') no-repeat fixed;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
