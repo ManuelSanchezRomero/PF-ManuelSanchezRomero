@@ -508,6 +508,12 @@ footer .footer-redes img {
         display: flex;
         justify-content: center;
     }
+    .Logo a img {
+        width: 100px;
+    }
+    .Logo a {
+        font-size: 80px;
+    }
     .navbar {
         display: flex;
         justify-content: center;
@@ -518,6 +524,9 @@ footer .footer-redes img {
         width: 40%;
     }
     /*Servicios*/
+    .body-paralax h2 {
+        font-size: 45px;
+    }
     /*Contacto*/
     .contacto {
         display: grid;
