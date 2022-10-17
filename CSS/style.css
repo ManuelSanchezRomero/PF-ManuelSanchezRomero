@@ -518,9 +518,6 @@ footer .footer-redes img {
         width: 40%;
     }
     /*Servicios*/
-    .body-paralax h2 {
-        display: flex;
-    }
     /*Contacto*/
     .contacto {
         display: grid;
