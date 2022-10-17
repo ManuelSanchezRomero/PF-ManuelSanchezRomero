@@ -137,13 +137,14 @@ header {
     margin: 5px 10px;
 }
 
-.Logo p {
+.Logo a {
     color: white;
     display: flex;
     align-items: flex-end;
     font-size: 100px;
     font-style: italic;
     margin-bottom: 6px;
+    text-decoration: none;
 }
 
 .navbar {
@@ -209,6 +210,8 @@ header {
 .titulo-nosotros {
     text-align: center;
     margin-bottom: 10px;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 
@@ -354,6 +357,7 @@ header {
     grid-area: box-mapa;
     display: flex;
     justify-self: center;
+    margin-bottom: 20px;
 }
 
 .box-datos {
@@ -368,6 +372,15 @@ header {
     font-style: italic;
     font-family: cursive;
     line-height: 100px;
+}
+
+.icono-contacto {
+    width: 70px;
+}
+
+.png {
+    background-color: white;
+    border-radius: 100px;
 }
 
 
@@ -394,7 +407,13 @@ header {
 }
 
 .texto-faq-der {
+    text-align: left;
+    padding: 10px 0;
+}
+
+.texto-faq-izq {
     text-align: right;
+    padding: 10px 0;
 }
 
 .form-faq {
@@ -492,10 +511,15 @@ footer .footer-redes img {
     .navbar {
         display: flex;
         justify-content: center;
+        width: 100%;
     }
     /*Nosotros*/
     .main-nosotros img {
         width: 40%;
+    }
+    /*Servicios*/
+    .body-paralax h2 {
+        display: flex;
     }
     /*Contacto*/
     .contacto {
@@ -531,6 +555,7 @@ footer .footer-redes img {
     .box-datos p {
         font-size: 30px;
     }
+    /*Footer*/
     .footer {
         display: grid;
         grid-template-columns: 100%;
@@ -545,6 +570,7 @@ footer .footer-redes img {
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: repeat(2, 1fr);
+        text-align: start;
     }
     .Logo {
         margin-top: 10px;
