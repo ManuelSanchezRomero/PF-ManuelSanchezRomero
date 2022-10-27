@@ -1,0 +1,54 @@
+.contacto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "box-redes box-redes"" box-mapa box-datos";
+}
+
+.box-redes {
+    grid-area: box-redes;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    img {
+        width: 150px;
+        position: relative;
+        margin-top: 100px;
+        transition: 0.3s;
+        background-color: white;
+        border-radius: 80px;
+    }
+    img:hover {
+        width: 250px;
+        border-radius: 80px;
+    }
+}
+
+.box-mapa {
+    grid-area: box-mapa;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 20px;
+}
+
+.box-datos {
+    display: flex;
+    grid-area: box-datos;
+    justify-content: start;
+    align-self: center;
+    p {
+        font-size: 50px;
+        font-style: italic;
+        font-family: cursive;
+        line-height: 100px;
+    }
+}
+
+.icono-contacto {
+    width: 70px;
+}
+
+.png {
+    background-color: white;
+    border-radius: 100px;
+}

@@ -1,0 +1,81 @@
+@media (max-width: 768px) {
+    header {
+        background-size: 100%;
+    }
+    .BANNER {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .Logo {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        a {
+            font-size: 80px;
+            img {
+                width: 100px;
+            }
+        }
+    }
+    .navbar {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    /*Nosotros*/
+    .main-nosotros {
+        img {
+            width: 40%;
+        }
+    }
+    /*Servicios*/
+    .body-paralax {
+        h2 {
+            font-size: 45px;
+        }
+        p {
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+    /*Contacto*/
+    .contacto {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 3;
+        grid-template-areas: "box-redes" "box-mapa" "box-datos";
+    }
+    .box-redes {
+        grid-area: box-redes;
+        display: flex;
+        justify-content: space-around;
+        img {
+            position: relative;
+            width: 100px;
+        }
+        img:hover {
+            width: 200px;
+        }
+    }
+    .box-mapa {
+        grid-area: box-mapa;
+        display: flex;
+        justify-content: center;
+    }
+    .box-datos {
+        grid-area: box-datos;
+        display: flex;
+        margin-top: 20px;
+        text-align: center;
+        justify-content: center;
+        p {
+            font-size: 30px;
+        }
+    }
+    /*Footer*/
+    .footer {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}

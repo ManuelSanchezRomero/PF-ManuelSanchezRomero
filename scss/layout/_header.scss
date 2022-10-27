@@ -1,0 +1,72 @@
+header {
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right bottom, #3d3d3d, #2f2f2f, #212121, #141414, #000000);
+    width: 100%;
+}
+
+.BANNER {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Logo {
+    display: flex;
+    margin-left: 10px;
+    a {
+        color: white;
+        display: flex;
+        align-items: flex-end;
+        font-size: 100px;
+        font-style: italic;
+        margin-bottom: 6px;
+        text-decoration: none;
+        img {
+            width: 120px;
+            cursor: pointer;
+            margin: 5px 10px;
+        }
+    }
+}
+
+.navbar {
+    padding: 35px 0;
+    display: flex;
+    background-color: none;
+    justify-content: space-between;
+    ul {
+        margin: 0 10px;
+        display: flex;
+        justify-content: space-between;
+        li {
+            list-style: none;
+            display: inline-block;
+            margin: 50px 20px;
+            position: sticky;
+             ::after {
+                content: '';
+                height: 3px;
+                width: 0;
+                background: #968c00;
+                position: absolute;
+                left: 0;
+                bottom: -10px;
+                transition: 0.5s;
+            }
+             :hover::after {
+                width: 100%;
+            }
+            a {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.activo {
+    font-weight: bolder;
+    color: #960000;
+    font-style: italic;
+    cursor: default;
+}

@@ -1,0 +1,24 @@
+@media (max-width: 576px) {
+    header {
+        background-size: 100%;
+    }
+    .BANNER {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(2, 1fr);
+        text-align: start;
+    }
+    .Logo {
+        margin-top: 10px;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 15px;
+    }
+    .footer-redes {
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+    }
+}
