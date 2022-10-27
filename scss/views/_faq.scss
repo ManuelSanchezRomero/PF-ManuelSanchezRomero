@@ -36,8 +36,9 @@
 .caja-pregunta {
     display: flex;
     flex-direction: column;
+    width: auto;
     select {
-        width: 100%;
+        width: auto;
         height: 30px;
         margin-bottom: 5px;
         font-size: 15px;
