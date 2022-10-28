@@ -325,6 +325,8 @@ span {
     margin-bottom: 5px;
     font-size: 15px;
     font-weight: bolder; }
+  .caja-pregunta textarea {
+    padding: 5px; }
   .caja-pregunta input {
     width: 100px;
     height: 30px;
