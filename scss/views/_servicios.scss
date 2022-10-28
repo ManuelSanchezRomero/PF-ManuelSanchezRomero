@@ -5,30 +5,14 @@
     font-family: arial;
     background-color: rgb(231, 217, 19);
     background-image: radial-gradient(circle, #fffe00, #ebdc00, #d4bb00, #bb9c02, #a17e06);
-    h1 {
-        color: #fff;
-        font-size: 80px;
-        text-align: center;
-        font-weight: bold;
-        margin: 0 auto;
-        width: 800px;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        margin-top: -20%;
-        margin-left: -400px;
-        opacity: 0.8;
-    }
     h2 {
         color: rgb(255, 255, 255);
         font-size: 55px;
         text-align: center;
         margin: 0 auto;
-        width: 800px;
+        width: 100%;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-left: -400px;
+        top: 40%;
         opacity: 0.8;
     }
     p {
