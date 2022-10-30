@@ -1,14 +1,21 @@
-.main-nosotros {
-    margin: 10px;
+.album {
+    background-color: rgb(231, 217, 19);
+    background-image: radial-gradient(circle, #fffe00, #ebdc00, #d4bb00, #bb9c02, #a17e06);
+}
+
+.card {
+    border-radius: 5%;
+    background-color: lightgray;
     img {
-        margin: 20px;
-        width: 30%;
+        height: 220PX;
+        border-radius: 5%;
+        position: relative;
     }
 }
 
-.titulo-nosotros {
-    text-align: center;
-    margin-bottom: 10px;
-    font-style: italic;
-    text-decoration: underline;
+.card:hover {
+    width: 450px;
+    height: 450px;
+    z-index: 1;
+    position: relative;
 }

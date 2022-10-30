@@ -152,17 +152,23 @@ span {
   font-style: italic;
   font-family: 'Franklin Gothic Medium'; }
 
-.main-nosotros {
-  margin: 10px; }
-  .main-nosotros img {
-    margin: 20px;
-    width: 30%; }
+.album {
+  background-color: #e7d913;
+  background-image: radial-gradient(circle, #fffe00, #ebdc00, #d4bb00, #bb9c02, #a17e06); }
 
-.titulo-nosotros {
-  text-align: center;
-  margin-bottom: 10px;
-  font-style: italic;
-  text-decoration: underline; }
+.card {
+  border-radius: 5%;
+  background-color: lightgray; }
+  .card img {
+    height: 220PX;
+    border-radius: 5%;
+    position: relative; }
+
+.card:hover {
+  width: 450px;
+  height: 450px;
+  z-index: 1;
+  position: relative; }
 
 .body-paralax {
   margin: 0;
@@ -391,7 +397,7 @@ span {
     justify-content: center;
     gap: 0px; } }
 
-@media ((max-width: 850px)) {
+@media ((max-width: 860px)) {
   header {
     background-size: 100%; }
   .BANNER {
