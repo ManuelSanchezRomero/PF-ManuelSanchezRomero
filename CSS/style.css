@@ -152,23 +152,34 @@ span {
   font-style: italic;
   font-family: 'Franklin Gothic Medium'; }
 
+.nosotros {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 9%; }
+
 .album {
   background-color: #e7d913;
   background-image: radial-gradient(circle, #fffe00, #ebdc00, #d4bb00, #bb9c02, #a17e06); }
 
-.card {
+.col {
   border-radius: 5%;
-  background-color: lightgray; }
-  .card img {
+  transition: 0.5s;
+  z-index: 0;
+  width: 30%; }
+  .col img {
     height: 220PX;
-    border-radius: 5%;
-    position: relative;
-    transition: 0; }
+    border-radius: 5%; }
 
-.card:hover {
-  width: 470px;
-  height: 400px;
+.col:hover {
+  width: 35%;
+  height: 300px;
+  position: relative;
   z-index: 1; }
+
+.card {
+  background-color: lightgray;
+  border-radius: 5%;
+  z-index: 0; }
 
 .body-paralax {
   margin: 0;
@@ -403,10 +414,18 @@ span {
     justify-content: center;
     width: 100%; }
   /*Nosotros*/
-  .card:hover {
-    width: 300px;
-    height: 450px;
-    position: relative; }
+  .nosotros {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 6; }
+  .col {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    justify-content: center; }
+  .col:hover {
+    width: 90%;
+    height: 400px; }
   /*Servicios*/
   .body-paralax h2 {
     font-size: 45px; }

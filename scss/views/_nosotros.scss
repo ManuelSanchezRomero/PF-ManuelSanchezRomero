@@ -1,21 +1,34 @@
+.nosotros {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 9%;
+}
+
 .album {
     background-color: rgb(231, 217, 19);
     background-image: radial-gradient(circle, #fffe00, #ebdc00, #d4bb00, #bb9c02, #a17e06);
 }
 
-.card {
+.col {
     border-radius: 5%;
-    background-color: lightgray;
+    transition: 0.5s;
+    z-index: 0;
+    width: 30%;
     img {
         height: 220PX;
         border-radius: 5%;
-        position: relative;
-        transition: 0;
     }
 }
 
-.card:hover {
-    width: 470px;
-    height: 400px;
+.col:hover {
+    width: 35%;
+    height: 300px;
+    position: relative;
     z-index: 1;
+}
+
+.card {
+    background-color: lightgray;
+    border-radius: 5%;
+    z-index: 0;
 }
