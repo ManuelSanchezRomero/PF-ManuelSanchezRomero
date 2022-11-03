@@ -383,11 +383,6 @@ span {
   .footer-link a {
     color: #a8a4a4; }
 
-@media ((max-width: 1200px)) {
-  .contacto {
-    display: grid;
-    grid-template-columns: 1; } }
-
 @media ((max-width: 860px)) {
   header {
     background-size: 100%; }
