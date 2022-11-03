@@ -24,10 +24,10 @@
         width: 100%;
     }
     /*Nosotros*/
-    .main-nosotros {
-        img {
-            width: 40%;
-        }
+    .card:hover {
+        width: 300px;
+        height: 450px;
+        position: relative;
     }
     /*Servicios*/
     .body-paralax {
@@ -62,6 +62,10 @@
         grid-area: box-mapa;
         display: flex;
         justify-content: center;
+    }
+    .mapa {
+        width: 100%;
+        margin: 10px 20px;
     }
     .box-datos {
         grid-area: box-datos;

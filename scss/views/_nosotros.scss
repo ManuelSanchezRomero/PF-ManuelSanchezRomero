@@ -10,12 +10,12 @@
         height: 220PX;
         border-radius: 5%;
         position: relative;
+        transition: 0;
     }
 }
 
 .card:hover {
-    width: 450px;
-    height: 450px;
+    width: 470px;
+    height: 400px;
     z-index: 1;
-    position: relative;
 }

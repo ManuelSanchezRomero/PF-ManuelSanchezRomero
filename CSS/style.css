@@ -162,13 +162,13 @@ span {
   .card img {
     height: 220PX;
     border-radius: 5%;
-    position: relative; }
+    position: relative;
+    transition: 0; }
 
 .card:hover {
-  width: 450px;
-  height: 450px;
-  z-index: 1;
-  position: relative; }
+  width: 470px;
+  height: 400px;
+  z-index: 1; }
 
 .body-paralax {
   margin: 0;
@@ -271,8 +271,13 @@ span {
 .box-mapa {
   grid-area: box-mapa;
   display: flex;
-  justify-self: center;
+  justify-content: center;
   margin-bottom: 20px; }
+
+.mapa {
+  width: 100%;
+  height: 400px;
+  margin: 10px 30px; }
 
 .box-datos {
   display: flex;
@@ -378,24 +383,10 @@ span {
   .footer-link a {
     color: #a8a4a4; }
 
-@media ((max-width: 576px)) {
-  header {
-    background-size: 100%; }
-  .BANNER {
+@media ((max-width: 1200px)) {
+  .contacto {
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(2, 1fr);
-    text-align: start; }
-  .Logo {
-    margin-top: 10px; }
-  .footer {
-    display: grid;
-    grid-template-columns: 100%;
-    row-gap: 15px; }
-  .footer-redes {
-    display: flex;
-    justify-content: center;
-    gap: 0px; } }
+    grid-template-columns: 1; } }
 
 @media ((max-width: 860px)) {
   header {
@@ -417,8 +408,10 @@ span {
     justify-content: center;
     width: 100%; }
   /*Nosotros*/
-  .main-nosotros img {
-    width: 40%; }
+  .card:hover {
+    width: 300px;
+    height: 450px;
+    position: relative; }
   /*Servicios*/
   .body-paralax h2 {
     font-size: 45px; }
@@ -444,6 +437,9 @@ span {
     grid-area: box-mapa;
     display: flex;
     justify-content: center; }
+  .mapa {
+    width: 100%;
+    margin: 10px 20px; }
   .box-datos {
     grid-area: box-datos;
     display: flex;
@@ -456,3 +452,22 @@ span {
   .footer {
     display: grid;
     grid-template-columns: 100%; } }
+
+@media ((max-width: 576px)) {
+  header {
+    background-size: 100%; }
+  .BANNER {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 1fr);
+    text-align: start; }
+  .Logo {
+    margin-top: 10px; }
+  .footer {
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 15px; }
+  .footer-redes {
+    display: flex;
+    justify-content: center;
+    gap: 0px; } }
