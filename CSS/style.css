@@ -15,6 +15,46 @@ hr {
   background-color: #000000;
   height: 5px; }
 
+.image1 {
+  position: relative;
+  background: url("../Imagenes/Slider/slider1.jpg") no-repeat fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px; }
+
+.image2 {
+  position: relative;
+  background: url("../Imagenes/Slider/slider2.jpg") no-repeat fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px; }
+
+.image3 {
+  position: relative;
+  background: url("../Imagenes/Slider/slider3.jpg") no-repeat fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px; }
+
+.image4 {
+  position: relative;
+  background: url("../Imagenes/Slider/slider4.jpg") no-repeat fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px; }
+
 header {
   background-color: black;
   background-image: linear-gradient(to right bottom, #3d3d3d, #2f2f2f, #212121, #141414, #000000);
@@ -72,8 +112,8 @@ header {
 
 .activo {
   font-weight: bolder;
-  color: #960000;
   font-style: italic;
+  font-size: 20px;
   cursor: default; }
 
 .index__fondo {
@@ -148,7 +188,7 @@ span {
   opacity: 70%; }
 
 .TextoAbajo {
-  margin-top: 200px;
+  font-size: 30px;
   font-style: italic;
   font-family: 'Franklin Gothic Medium'; }
 
@@ -181,6 +221,11 @@ span {
   border-radius: 5%;
   z-index: 0; }
 
+.card-text {
+  font-size: 20px;
+  text-align: center;
+  font-style: italic; }
+
 .body-paralax {
   margin: 0;
   padding: 0;
@@ -206,46 +251,6 @@ span {
     color: #fff;
     text-decoration: none;
     opacity: 0.8; }
-
-.image1 {
-  position: relative;
-  background: url("../Imagenes/Slider/slider1.jpg") no-repeat fixed;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 500px; }
-
-.image2 {
-  position: relative;
-  background: url("../Imagenes/Slider/slider2.jpg") no-repeat fixed;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 500px; }
-
-.image3 {
-  position: relative;
-  background: url("../Imagenes/Slider/slider4.jpg") no-repeat fixed;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 500px; }
-
-.image4 {
-  position: relative;
-  background: url("../Imagenes/Slider/slider3.jpg") no-repeat fixed;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 500px; }
 
 .content {
   width: 100%;
@@ -287,7 +292,7 @@ span {
 
 .mapa {
   width: 100%;
-  height: 400px;
+  height: 450px;
   margin: 10px 30px; }
 
 .box-datos {
@@ -296,7 +301,7 @@ span {
   justify-content: start;
   align-self: center; }
   .box-datos p {
-    font-size: 50px;
+    font-size: 45px;
     font-style: italic;
     font-family: cursive;
     line-height: 100px; }
@@ -310,7 +315,7 @@ span {
 
 .FAQ {
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: 1fr;
   grid-template-rows: 2;
   grid-template-areas: "texto-faq" "form-faq";
   row-gap: 50px; }
@@ -341,13 +346,22 @@ span {
   display: flex;
   flex-direction: column;
   width: auto; }
+  .caja-pregunta label {
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-bottom: 5px; }
   .caja-pregunta select {
     width: auto;
     height: 30px;
     margin-bottom: 5px;
     font-size: 15px;
     font-weight: bolder; }
+    .caja-pregunta select .negrita {
+      font-weight: 900; }
   .caja-pregunta textarea {
+    display: flex;
     padding: 5px; }
   .caja-pregunta input {
     width: 100px;
@@ -359,6 +373,8 @@ span {
     color: lightgray;
     margin-top: 5px;
     margin-bottom: 10px; }
+  .caja-pregunta input:hover {
+    background-color: #a09b99; }
 
 .footer {
   display: flex;
@@ -484,4 +500,6 @@ span {
   .footer-redes {
     display: flex;
     justify-content: center;
-    gap: 0px; } }
+    gap: 0px; }
+  .box-datos p {
+    font-size: 20px; } }

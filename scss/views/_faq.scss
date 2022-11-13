@@ -1,6 +1,6 @@
 .FAQ {
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr;
     grid-template-rows: 2;
     grid-template-areas: "texto-faq" "form-faq";
     row-gap: 50px;
@@ -37,14 +37,25 @@
     display: flex;
     flex-direction: column;
     width: auto;
+    label {
+        font-style: italic;
+        font-size: 22px;
+        font-weight: 500;
+        text-decoration: underline;
+        margin-bottom: 5px;
+    }
     select {
         width: auto;
         height: 30px;
         margin-bottom: 5px;
         font-size: 15px;
         font-weight: bolder;
+        .negrita {
+            font-weight: 900;
+        }
     }
     textarea {
+        display: flex;
         padding: 5px;
     }
     input {
@@ -57,5 +68,8 @@
         color: lightgray;
         margin-top: 5px;
         margin-bottom: 10px;
+    }
+    input:hover {
+        background-color: rgb(160, 155, 153);
     }
 }

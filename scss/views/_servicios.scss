@@ -29,47 +29,19 @@
 }
 
 .image1 {
-    position: relative;
-    background: url('../Imagenes/Slider/slider1.jpg') no-repeat fixed;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 500px;
+    @include imagen1
 }
 
 .image2 {
-    position: relative;
-    background: url('../Imagenes/Slider/slider2.jpg') no-repeat fixed;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 500px;
+    @include imagen2
 }
 
 .image3 {
-    position: relative;
-    background: url('../Imagenes/Slider/slider4.jpg') no-repeat fixed;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 500px;
+    @include imagen3
 }
 
 .image4 {
-    position: relative;
-    background: url('../Imagenes/Slider/slider3.jpg') no-repeat fixed;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 500px;
+    @include imagen4
 }
 
 .content {
